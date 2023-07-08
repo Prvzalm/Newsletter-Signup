@@ -37,7 +37,7 @@ app.post('/', function(req,res){
 
     const options = {
         method: 'POST',
-        auth: 'prvzalm:4596909b7e7f99dd1c95acaa895be62d-us21'
+        auth: 'prvzalm:9c3b7cc10e2d150b4b7023e05f43c233-us21'
     }
 
     const request = https.request(url, options, function(response){
@@ -64,11 +64,3 @@ app.post('/failure', function(req, res){
 app.listen(process.env.PORT || 3000, function(){
     console.log('server is running on port 3000');
 });
-
-
-
-// API Key
-// 4596909b7e7f99dd1c95acaa895be62d-us21
-
-// List ID
-// c1550898d3
